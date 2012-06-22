@@ -415,6 +415,7 @@ K.markup = "" +
     '<div id="sb-wrapper">' +
         '<div id="sb-title">' +
             '<div id="sb-title-inner"></div>' +
+            '<a id="sb-nav-close" onclick="Shadowbox.close()"></a>' +
         '</div>' +
         '<div id="sb-wrapper-inner">' +
             '<div id="sb-body">' +
@@ -426,7 +427,6 @@ K.markup = "" +
             '<div id="sb-info-inner">' +
                 '<div id="sb-counter"></div>' +
                 '<div id="sb-nav">' +
-                    '<a id="sb-nav-close" onclick="Shadowbox.close()"></a>' +
                     '<a id="sb-nav-next" onclick="Shadowbox.next()"></a>' +
                     '<a id="sb-nav-play" onclick="Shadowbox.play()"></a>' +
                     '<a id="sb-nav-pause" onclick="Shadowbox.pause()"></a>' +
